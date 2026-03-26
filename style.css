@@ -174,3 +174,212 @@ btn{
     height: 50px;
     padding-top: 10px;
 }
+
+
+
+
+
+
+
+/* =========================
+   MOBILE VIEW (PHONE)
+========================= */
+@media (max-width: 768px) {
+
+    /* Header */
+    .logo {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .btn button {
+        width: 100%;
+    }
+
+    /* Navbar center */
+    .navbar-nav {
+        text-align: center;
+    }
+
+    /* Slider text */
+    .slidearea .details {
+        position: static;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .slidearea h2 {
+        font-size: 22px;
+    }
+
+    .slidearea h6 {
+        font-size: 14px;
+    }
+
+    /* Section 2 */
+    .section-two img {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .sec-coloumn {
+        text-align: center;
+    }
+
+    /* Boxes (Services) */
+    .box {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .box img {
+        width: 80px;
+    }
+
+    /* Industry icons */
+    .img-boxarea .box,
+    .img-boxarea2 .box {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .img-boxarea img,
+    .img-boxarea2 img {
+        width: 60px;
+    }
+
+    /* Github logos */
+    .github-box .box {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    /* Footer */
+    .footer {
+        text-align: center;
+    }
+
+    .footer ul {
+        padding-left: 0;
+        list-style: none;
+    }
+
+    .footer .mno {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+
+
+/* box */
+
+
+
+@media (max-width: 768px) {
+
+    /* All rows center */
+    .row {
+        justify-content: center !important;
+        text-align: center;
+    }
+
+    /* All columns full width */
+    .col-md-4,
+    .col-md-3,
+    .col-md-2,
+    .col-md-6 {
+        width: 100% !important;
+        max-width: 100%;
+    }
+
+    /* All boxes center */
+    .box {
+        margin: 0 auto 20px auto;
+        text-align: center;
+    }
+
+    /* Images center */
+    .box img {
+        display: block;
+        margin: 0 auto 10px;
+    }
+
+    /* Industry icons */
+    .img-boxarea .col-md-2,
+    .img-boxarea2 .col-md-2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Github logos */
+    .github-box .col-md-2,
+    .github-box .col {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+
+
+
+/* footer */
+
+
+@media (max-width: 768px) {
+
+    .footer {
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .footer .row {
+        margin-bottom: 15px;
+    }
+
+    .footer ul {
+        padding-left: 0;
+        list-style: none;
+    }
+
+    .footer img {
+        max-width: 150px;
+        margin-bottom: 10px;
+    }
+
+    .mno p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .xyz {
+        display: block !important;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .xyz img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
